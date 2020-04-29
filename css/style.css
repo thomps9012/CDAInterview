@@ -1,0 +1,20 @@
+.jumbotron1{
+    background-image: url("http://cdainterview.com/resources/cda-interview-guide.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+.container{
+    color: ivory;   
+}
+
+.form-group{
+  padding: 24px;
+}
+
+.container-fluid{
+    padding: 24px;
+}
+

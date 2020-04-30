@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Protected Site"
-AuthUserFile /www/sites/thomps9012.github.io/CDAInterview
-require valid-user

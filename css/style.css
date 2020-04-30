@@ -1,3 +1,4 @@
+/*Style and image for homepage jumbotron*/
 .jumbotron1{
     background-image: url("http://cdainterview.com/resources/cda-interview-guide.jpg");
     background-size: cover;
@@ -16,5 +17,10 @@
 
 .container-fluid{
     padding: 24px;
+    width: 85%;
+    text-align: justify;
 }
 
+.card7{
+    text-align: center;
+}

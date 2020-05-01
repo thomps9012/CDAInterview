@@ -1,21 +1,22 @@
 $(document).ready(function () {
-    var email = $('#email').val();
-    // document.getElementById("email");
-    var name = $('#name').val();
-    // document.getElementById("name");
-    var message = $('#message').val();
-    // document.getElementById("message");
+    $('.btn').on('click', function(event){ 
+    const email = $('#email').val();
+    const name = $('#name').val();
+    const message = $('#message').val();
 
-    function setEmail(){
+
+    function setEmail() {
         localStorage.setItem("email: ", email);
     };
-    function setName(){
+    function setName() {
         localStorage.setItem("name: ", name);
     };
-    function setMessage(){
+    function setMessage() {
         localStorage.setItem("message: ", message);
     };
-    $(".submit").on("click", function(event){
+        console.log(email);
+        console.log(name);
+        console.log(message);
         event.preventDefault();
         setEmail();
         setName();
